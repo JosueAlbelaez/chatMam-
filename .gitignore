@@ -1,0 +1,11 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Archivos de configuración con contraseñas
+.streamlit/secrets.toml
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
