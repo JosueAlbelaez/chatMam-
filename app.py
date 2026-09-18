@@ -28,9 +28,9 @@ if not verificar_password():
 @st.cache_resource
 def obtener_cliente_hf():
     hf_token = st.secrets.get("HF_TOKEN", None)
-    # Conexión directa a la API del modelo
+    # Apuntar al modelo completo fusionado
     client = InferenceClient(
-        model="josuealbelaez/qwen2.5-1.5b-estilo-mama",
+        model="josuealbelaez/qwen2.5-1.5b-estilo-mama-merged",
         token=hf_token
     )
     return client
