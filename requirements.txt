@@ -1,6 +1,2 @@
 streamlit
-torch
-torchvision
-transformers
-peft
-accelerate
+huggingface-hub
